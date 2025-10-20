@@ -1,81 +1,116 @@
 # OctoAcme Personas
 
-This document defines typical roles and responsibilities used in OctoAcme project docs and exercises.
+... (existing content above)
 
 ---
 
-## Developers
+## Scrum Master
 
 ### Role Summary
-Developers design, build, test, and deliver software components. They collaborate with product and project leads to implement features that meet acceptance criteria and quality standards.
+The Scrum Master facilitates agile ceremonies, removes impediments, and coaches the team on agile best practices.
 
 ### Responsibilities
-- Implement features and fixes to meet acceptance criteria
-- Write and maintain tests and documentation
-- Participate in design and code reviews
-- Assist in estimating and planning work
-- Help identify technical risks and propose mitigations
+- Facilitate daily standups, sprint planning, reviews, and retrospectives
+- Remove blockers for the team
+- Coach the team on agile practices and continuous improvement
+- Foster psychological safety and team morale
 
 ### Goals
-- Deliver reliable, maintainable code
-- Reduce cycle time from idea to production
-- Maintain high test coverage and observability
+- Support smooth, predictable delivery cycles
+- Help the team self-organize and continuously improve
 
 ### Typical Communication
-- Daily standups and sprint planning
-- PR descriptions and code review comments
-- Technical design docs when needed
+- Daily with Developers and Project Manager
+- Sprint reviews with Product Manager and stakeholders
 
 ---
 
-## Product Managers
+## UX/UI Designer
 
 ### Role Summary
-Product Managers define what should be built to deliver customer and business value. They own the product vision, prioritize the backlog, and measure outcomes.
+Designs user experiences and interfaces that meet business and user needs.
 
 ### Responsibilities
-- Define problem statements and success metrics
-- Prioritize the roadmap and backlog
-- Collaborate with stakeholders and engineering on trade-offs
-- Validate solutions through user research and metrics
+- Create wireframes, mockups, and prototypes
+- Collaborate with Product Managers and Developers
+- Conduct usability testing and incorporate feedback
 
 ### Goals
-- Maximize customer value and impact
-- Make clear, data-driven prioritization decisions
-- Ensure product-market fit and usability
+- Deliver intuitive, accessible product experiences
+- Align design with business goals and user needs
 
 ### Typical Communication
-- Weekly alignment with PM and engineering leads
-- Roadmap updates and stakeholder briefings
-- Acceptance criteria and feature specs
+- Iterative feedback sessions with Product and Development
+- Design reviews and demo meetings
 
 ---
 
-## Project Managers
+## Data Analyst
 
 ### Role Summary
-Project Managers coordinate delivery activities, manage schedules, risks, and communications. They enable the team to deliver on commitments efficiently.
+Provides actionable insights from data to inform product and business decisions.
 
 ### Responsibilities
-- Create and maintain project plans and timelines
-- Manage risks, dependencies, and resource constraints
-- Facilitate meetings (kickoff, planning, retrospectives)
-- Ensure consistent project documentation and status reporting
-- Coordinate cross-team and stakeholder communication
+- Define and track success metrics
+- Analyze usage and performance data
+- Work with Product Managers and Developers to instrument tracking
 
 ### Goals
-- Deliver projects on time and within scope
-- Minimize unplanned work and escalations
-- Maintain transparency and alignment across stakeholders
+- Enable data-driven decision making
+- Uncover opportunities for improvement
 
 ### Typical Communication
-- Weekly status updates and stakeholder reports
-- Risk registers and decision logs
-- Coordination via project boards and meeting facilitation
+- Regular updates to Product and Project Managers
+- Insights shared in retrospectives and planning
 
 ---
 
-## How these personas are used in the exercise
-- Use these persona definitions to frame scenarios and sample interactions in the Skills Exercise.
-- Each persona can be used as a persona prompt for Copilot Spaces to shape role-specific guidance.
+## DevOps Engineer
 
+### Role Summary
+Maintains CI/CD pipelines, infrastructure, and deployment processes.
+
+### Responsibilities
+- Own CI/CD automation and system monitoring
+- Collaborate on release planning and incident response
+- Ensure infrastructure reliability and scalability
+
+### Goals
+- Automate repetitive tasks and reduce manual deployment risk
+- Ensure reliable releases and fast incident recovery
+
+### Typical Communication
+- Syncs with Developers and QA on release readiness
+- Incident updates with Project Manager and stakeholders
+
+---
+
+## Customer Success Manager
+
+### Role Summary
+Represents the voice of the customer, coordinates post-release feedback and support.
+
+### Responsibilities
+- Gather customer feedback and pain points
+- Communicate issues and opportunities to Product and Project Managers
+- Support onboarding and adoption
+
+### Goals
+- Improve customer satisfaction and retention
+- Surface actionable insights for continuous improvement
+
+### Typical Communication
+- Regular check-ins with Product and Project Managers
+- Feedback sharing in retrospectives and roadmap planning
+
+---
+
+## How new personas interact with existing roles
+
+- Scrum Masters work closely with Project Managers and Developers to remove blockers and drive improvement.
+- UX/UI Designers collaborate with Product Managers and Developers throughout the design and implementation phases.
+- Data Analysts support Product and Project Managers with insights and work with Developers to ensure proper instrumentation.
+- DevOps Engineers enable Developers and QA to deliver and operate software reliably.
+- Customer Success Managers act as a feedback bridge between customers and the product/project teams.
+
+---
